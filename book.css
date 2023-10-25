@@ -1,0 +1,67 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin:5px;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(unsplash.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1234px;
+    margin: 0 auto;
+    padding: 18px;
+}
+
+header {
+    color:#ff6600;
+    white-space: 777px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:left;
+
+}
+
+nav ul {
+    list-style: none;
+    list-style-position: outside;
+}
+
+nav li {
+    display:inline;
+    margin-right: 10px;
+    padding-left: 5px;
+    list-style-position: outside;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hero h2 {
+    font-size: 45px;
+    color: #ff6600;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    color: #ff6600;
+}
+
+.cta-button:hover {
+    background-color: #ffffff;
+}
+
+/* Style other sections as needed */
